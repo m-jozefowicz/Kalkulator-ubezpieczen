@@ -1,0 +1,54 @@
+
+body {
+  background-color: #EAF0FB;
+  font-family: Arial, sans-serif;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+
+  .form__form-area {
+    display: flex;
+    flex-direction: column;
+
+    input, select, output {
+      background-color: white;
+      border: 2px solid #949594;
+      padding: 5px;
+      margin: 5px;
+      width: 230px;
+      margin-left: 50px;
+      align-self: flex-end
+
+    }
+
+    .form__input {
+      margin-left: 56px;
+    }
+
+    #payment{
+      float: right;
+    }
+
+    .form__select, .form__btn {
+      width: 244px;
+      cursor: pointer;
+    }
+
+    .form__btn {
+      margin-top: 5%;
+      background-color: #FCEDC6;
+    }
+
+    .form__result {
+      padding-top: 5px;
+      text-align: center;
+    }
+
+
+  }
+
+
+}
